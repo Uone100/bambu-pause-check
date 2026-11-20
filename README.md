@@ -2,7 +2,19 @@
 
 Check whether manual pauses in a sliced Bambu Studio plate match the layers or heights you intended before embedding magnets or nuts.
 
-**[Download the versioned ZIP](https://github.com/Uone100/bambu-pause-check/releases/latest)** · **[English tutorial and worked examples](TUTORIAL.md)**
+**[Download v0.1.0 ZIP](https://github.com/Uone100/bambu-pause-check/releases/download/v0.1.0/bambu-pause-check-0.1.0.zip)** · **[English tutorial and worked examples](TUTORIAL.md)** · [All releases](https://github.com/Uone100/bambu-pause-check/releases)
+
+![A real 15-layer slice with a correct pause, a missing pause and an extra pause.](examples/preview.png)
+
+## Install for Codex in one command
+
+From your project, with Node.js 22.20 or newer:
+
+```sh
+npx skills add Uone100/bambu-pause-check -a codex
+```
+
+Start a new Codex session in that project. For standalone use, download the ZIP and follow the quickstart below.
 
 ## Quickstart
 
